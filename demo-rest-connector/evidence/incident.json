@@ -1,0 +1,14 @@
+{
+  "processDefinitionId": "Loan_Credit_Eligibility_Process",
+  "errorType": "JOB_NO_RETRIES",
+  "errorMessage": "An error occurred while executing the request, or the connection was aborted | Error variables: {error={type=io.camunda.connector.api.error.ConnectorException, code=408, message=An error occurred while executing the request, or the connection was aborted}}",
+  "elementId": "Task_CheckCredit",
+  "creationTime": "2026-11-10T17:16:48.268Z",
+  "state": "ACTIVE",
+  "tenantId": "<default>",
+  "incidentKey": "2251799813792303",
+  "processDefinitionKey": "2251799813791970",
+  "processInstanceKey": "2251799813792251",
+  "elementInstanceKey": "2251799813792260",
+  "jobKey": "2251799813792268"
+}

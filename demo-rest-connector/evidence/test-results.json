@@ -1,0 +1,26 @@
+[
+  {
+    "test": "A",
+    "key": "2251799813793870",
+    "state": "COMPLETED",
+    "end": "End_Eligible",
+    "decision": "ELIGIBLE",
+    "variable": "{\"status\":200,\"headers\":{\"Keep-Alive\":\"timeout=60\",\"Transfer-Encoding\":\"chunked\",\"Connection\":\"keep-alive\",\"Date\":\"Tue, 10 Nov 2026 17:37:15 GMT\",\"Content-Type\":\"application/json\"},\"body\":{\"customerName\":\"Meera\",\"demoScore\":900,\"estimatedEmi\":9964.29,\"totalMonthlyEmi\":14964.29,\"emiRatio\":14.96,\"eligible\":true,\"decision\":\"ELIGIBLE\",\"message\":\"Meets the demonstration eligibility rules\"},\"reason\":\"\","
+  },
+  {
+    "test": "B",
+    "key": "2251799813793927",
+    "state": "COMPLETED",
+    "end": "End_Other",
+    "decision": "MANUAL_REVIEW",
+    "variable": "{\"status\":200,\"headers\":{\"Keep-Alive\":\"timeout=60\",\"Transfer-Encoding\":\"chunked\",\"Connection\":\"keep-alive\",\"Date\":\"Tue, 10 Nov 2026 17:37:19 GMT\",\"Content-Type\":\"application/json\"},\"body\":{\"customerName\":\"Arun\",\"demoScore\":750,\"estimatedEmi\":16607.15,\"totalMonthlyEmi\":26607.15,\"emiRatio\":44.35,\"eligible\":false,\"decision\":\"MANUAL_REVIEW\",\"message\":\"Requires manual review\"},\"reason\":\"\",\"document\":nu"
+  },
+  {
+    "test": "C",
+    "key": "2251799813793959",
+    "state": "COMPLETED",
+    "end": "End_Other",
+    "decision": "NOT_ELIGIBLE",
+    "variable": "{\"status\":200,\"headers\":{\"Keep-Alive\":\"timeout=60\",\"Transfer-Encoding\":\"chunked\",\"Connection\":\"keep-alive\",\"Date\":\"Tue, 10 Nov 2026 17:37:21 GMT\",\"Content-Type\":\"application/json\"},\"body\":{\"customerName\":\"Ravi\",\"demoScore\":550,\"estimatedEmi\":47073.47,\"totalMonthlyEmi\":62073.47,\"emiRatio\":310.37,\"eligible\":false,\"decision\":\"NOT_ELIGIBLE\",\"message\":\"Does not meet the demonstration eligibility rules\""
+  }
+]
